@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.demo_project.TexteditorActivity" >
+
+    
+    
+    <EditText
+        android:id="@+id/edit1" 
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="import java.util.*;\n
+        			public class A{\n
+        			public static void main(String[] args){\n\n
+        			//write your code here\n\n
+        			System.out.println();
+        			\t}\n
+        			}\n"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+          />
+    <Button 
+        android:id="@+id/button1" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit1"
+        android:text="Run"
+        android:onClick="run"
+        />
+    
+
+</RelativeLayout>
